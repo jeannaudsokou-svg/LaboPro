@@ -1,0 +1,12 @@
+<?php
+/**
+ * Page d'accueil - Redirection
+ */
+require_once __DIR__ . '/includes/functions.php';
+
+if (isLoggedIn()) {
+    header('Location: dashboard.php');
+} else {
+    header('Location: login.php');
+}
+exit;
