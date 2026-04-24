@@ -188,9 +188,10 @@ $userRole = $_SESSION['user_role'];
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="profil.php"><i class="bi bi-person me-2"></i>Mon profil</a></li>
+                            <li><a class="dropdown-item" href="parametres.php"><i class="bi bi-gear me-2"></i>Parametres</a></li>
                             <li><a class="dropdown-item" href="notifications.php"><i class="bi bi-bell me-2"></i>Notifications</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item text-danger" href="logout.php"><i class="bi bi-box-arrow-right me-2"></i>Déconnexion</a></li>
+                            <li><a class="dropdown-item text-danger" href="logout.php"><i class="bi bi-box-arrow-right me-2"></i>Deconnexion</a></li>
                         </ul>
                     </div>
                 </div>
